@@ -180,17 +180,17 @@ typedef struct
 #define CMSDK_UART_CTRL_TXEN_Pos          0                                             /* CMSDK_UART CTRL: TXEN Position */
 #define CMSDK_UART_CTRL_TXEN_Msk          (0x01ul << CMSDK_UART_CTRL_TXEN_Pos)          /* CMSDK_UART CTRL: TXEN Mask */
 
-#define CMSDK_UART_INTSTATUS_RXORIRQ_Pos  3                                             /* CMSDK_UART CTRL: RXORIRQ Position */
-#define CMSDK_UART_CTRL_RXORIRQ_Msk       (0x01ul << CMSDK_UART_INTSTATUS_RXORIRQ_Pos)  /* CMSDK_UART CTRL: RXORIRQ Mask */
+#define CMSDK_UART_INTSTATUS_RXORIRQ_Pos  3                                             /* CMSDK_UART INTSTATUS/INTCLEAR: RXORIRQ Position */
+#define CMSDK_UART_INTSTATUS_RXORIRQ_Msk  (0x01ul << CMSDK_UART_INTSTATUS_RXORIRQ_Pos)  /* CMSDK_UART INTSTATUS/INTCLEAR: RXORIRQ Mask */
 
-#define CMSDK_UART_CTRL_TXORIRQ_Pos       2                                             /* CMSDK_UART CTRL: TXORIRQ Position */
-#define CMSDK_UART_CTRL_TXORIRQ_Msk       (0x01ul << CMSDK_UART_CTRL_TXORIRQ_Pos)       /* CMSDK_UART CTRL: TXORIRQ Mask */
+#define CMSDK_UART_INTSTATUS_TXORIRQ_Pos  2                                             /* CMSDK_UART INTSTATUS/INTCLEAR: TXORIRQ Position */
+#define CMSDK_UART_INTSTATUS_TXORIRQ_Msk  (0x01ul << CMSDK_UART_INTSTATUS_TXORIRQ_Pos)  /* CMSDK_UART INTSTATUS/INTCLEAR: TXORIRQ Mask */
 
-#define CMSDK_UART_CTRL_RXIRQ_Pos         1                                             /* CMSDK_UART CTRL: RXIRQ Position */
-#define CMSDK_UART_CTRL_RXIRQ_Msk         (0x01ul << CMSDK_UART_CTRL_RXIRQ_Pos)         /* CMSDK_UART CTRL: RXIRQ Mask */
+#define CMSDK_UART_INTSTATUS_RXIRQ_Pos    1                                             /* CMSDK_UART INTSTATUS/INTCLEAR: RXIRQ Position */
+#define CMSDK_UART_INTSTATUS_RXIRQ_Msk    (0x01ul << CMSDK_UART_INTSTATUS_RXIRQ_Pos)    /* CMSDK_UART INTSTATUS/INTCLEAR: RXIRQ Mask */
 
-#define CMSDK_UART_CTRL_TXIRQ_Pos         0                                             /* CMSDK_UART CTRL: TXIRQ Position */
-#define CMSDK_UART_CTRL_TXIRQ_Msk         (0x01ul << CMSDK_UART_CTRL_TXIRQ_Pos)         /* CMSDK_UART CTRL: TXIRQ Mask */
+#define CMSDK_UART_INTSTATUS_TXIRQ_Pos    0                                             /* CMSDK_UART INTSTATUS/INTCLEAR: TXIRQ Position */
+#define CMSDK_UART_INTSTATUS_TXIRQ_Msk    (0x01ul << CMSDK_UART_INTSTATUS_TXIRQ_Pos)    /* CMSDK_UART INTSTATUS/INTCLEAR: TXIRQ Mask */
 
 #define CMSDK_UART_BAUDDIV_Pos            0                                             /* CMSDK_UART BAUDDIV: BAUDDIV Position */
 #define CMSDK_UART_BAUDDIV_Msk           (0xFFFFFul << CMSDK_UART_BAUDDIV_Pos)          /* CMSDK_UART BAUDDIV: BAUDDIV Mask */
